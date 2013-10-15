@@ -2,13 +2,15 @@
 
 **Wichtig: Nach dem Hinzufügen von Dateien und Ordnern und nach dem Entfernen von Dateien und Ordnern immer `git commit -m 'MESSAGE'` ausführen!!**
 
-Konfigurationen ändern:
+**Konfigurationen ändern:**
+---------------------------
 
 `git config --global user.name "USERNAME"` *Username setzten (muss mit GitHub übereinstimmen!)*
 
 `git config --global user.email "E-MAIL@ADRESSE.TLD"` *E-Mail Adresse setzten (muss mit GitHub übereinstimmen!)*
 
-Neue Repository erstellen:
+**Neue Repository erstellen:**
+---------------------------
 
 `mkdir ~/NAME_DER_REPOSITORY` *Legt das Verzeichnis an*
 
@@ -22,25 +24,30 @@ Neue Repository erstellen:
 
 `git commit -m 'NACHRICHT_DES_COMMIT'` *Den Dateien des letzten add-Befehls einen commit hinzufügen*
 
-Repository auswählen um damit zu arbeiten:
+**Repository auswählen um damit zu arbeiten:**
+---------------------------
 
 `cd ~/NAME_DER_REPOSITORY`
 
-Dateien und Ordner hinzufügen:
+**Dateien und Ordner hinzufügen:**
+---------------------------
 
 `git add .` *Fügt alle Ordner + Dateien in dem Repo-Ordner der Repo hinzu*
 
 `git commit -m 'NACHRICHT_DES_COMMIT'` *Den Dateien des letzten add-Befehls einen commit hinzufügen*
 
-Verbindung zur Repository auf GitHub herstellen:
+**Verbindung zur Repository auf GitHub herstellen:**
+---------------------------
 
 `git remote add origin https://github.com/USERNAME/NAME_DER_REPOSITORY.git` *Anstatt der https-Methode: git@github.com:USERNAME/NAME_DER_REPOSITORY.git*
 
-Repository aktualisieren/hochladen:
+**Repository aktualisieren/hochladen:**
+---------------------------
 
 `git push -u origin master` *master ist der Branch! - Im Anschluss erfolgt eine Authentifizierung*
 
-Dateien, Ordner und/oder Repository löschen:
+**Dateien, Ordner und/oder Repository löschen:**
+---------------------------
 
 `git rm --cached PATH/TO/FILE.txt` *Löscht die Datei aus der Repository*
 
